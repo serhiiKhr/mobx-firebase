@@ -1,0 +1,72 @@
+.messages-page {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.messages-page .messages-area {
+    width: 100%;
+    height: calc(100% - 200px);
+    max-height: calc(100vh - 298px);
+    overflow: auto;
+    border: 1px solid red;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.messages-page .messages-area--item {
+    display: inline-block;
+    border: 1px solid red;
+    padding: 10px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    max-width: 60%;
+}
+.messages-page .messages-area--item.output {
+    margin-left: auto;
+    margin-right: unset;
+}
+.messages-page .messages-area--item__author {
+    margin-bottom: 10px;
+}
+.messages-page .messages-area--item__text {
+    margin-bottom: 10px;
+}
+.messages-page .messages-area--item__info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+.messages-page .messages-area--item__info.output {
+    flex-direction: row-reverse;
+}
+
+.messages-page .message-input {
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+.messages-page .message-input--textarea {
+    width: 100%;
+    height: 100%;
+    resize: none;
+    padding: 10px 70px 10px 10px;
+}
+.messages-page .message-input--textarea:focus {
+    outline: none;
+}
+.messages-page .message-input--button {
+    position: absolute;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    right: 20px;
+    bottom: 20px;
+}
+.messages-page .message-input--button:active {
+    transform: scale(.95);
+}
+.messages-page .message-input--button:focus {
+    outline: none;
+}

@@ -1,0 +1,29 @@
+.notification-page {
+    width: 100%;
+}
+.notification-page .notification-item {
+    margin-bottom: 20px;
+    border: 1px solid red;
+    padding: 10px;
+    cursor: pointer;
+    user-select: none;
+}
+.notification-page .notification-item:active {
+    background: #f5f5f5;
+}
+.notification-page .notification-item--head {
+    margin-bottom: 10px;
+}
+.notification-page .notification-item--body {
+    white-space: nowrap;
+
+}
+.notification-page .notification-item--body__text {
+    margin-bottom: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.notification-page .notification-item--body__info {
+    text-align: end;
+    font-size: 12px;
+}

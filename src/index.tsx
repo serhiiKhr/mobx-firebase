@@ -1,8 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import { BrowserRouter, RouteComponentProps } from 'react-router-dom';
+
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+
+// Styles
+import './index.css';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 

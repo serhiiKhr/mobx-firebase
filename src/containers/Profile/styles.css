@@ -1,0 +1,50 @@
+.profile-page {
+    width: 100%;
+}
+.profile-page .change-mode {
+    margin-bottom: 10px;
+    text-align: end;
+}
+.profile-page .change-mode--button {
+    cursor: pointer;
+    user-select: none;
+    border: none;
+}
+.profile-page .change-mode--button:active {
+    transform: scale(.99);
+}
+.profile-page .change-mode--button:focus {
+    outline: none;
+}
+.profile-page .profile-form,
+.profile-page .profile-view {
+    width: 100%;
+}
+.profile-page .profile-form--row,
+.profile-page .profile-view--row {
+    margin-bottom: 10px;
+}
+.profile-page .profile-form--row__label,
+.profile-page .profile-view--row__label {
+    display: block;
+    margin-bottom: 5px;
+}
+.profile-page .profile-form--row__value,
+.profile-page .profile-view--row__value {
+    width: 100%;
+    resize: vertical;
+    max-height: 200px;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+.profile-page .profile-view--row__value[type="submit"] {
+    cursor: pointer;
+    user-select: none;
+    border: none;
+}
+.profile-page .profile-view--row__value[type="submit"]:active {
+    transform: scale(.99);
+}
+.profile-page .profile-view--row__value[type="submit"]:focus {
+    outline: none;
+}

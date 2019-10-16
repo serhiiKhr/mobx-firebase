@@ -1,0 +1,35 @@
+.home-page {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+.home-page .dashboard {
+
+}
+.home-page .dashboard--section {
+    margin-bottom: 20px;
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 0 10px;
+}
+.home-page .dashboard--section__label {
+    margin-bottom: 10px;
+    margin-top: -10px;
+    margin-left: 5px;
+    display: flex;
+    padding: 0 5px;
+    background: #fff;
+    width: fit-content;
+}
+.home-page .dashboard--item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    border-bottom: 1px solid red;
+}
+.home-page .dashboard--item__label {
+
+}
+.home-page .dashboard--item__value {
+
+}

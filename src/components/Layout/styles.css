@@ -1,0 +1,29 @@
+.app-header {
+    padding: 10px 20px;
+    border-bottom: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+}
+.app-header--logo {
+    cursor: pointer;
+}
+.app-header--nav {
+
+}
+.app-header--nav__link {
+    margin-left: 10px;
+    user-select: none;
+    cursor: pointer;
+}
+.app-header--nav__link.active {
+    border-bottom: 1px solid red;
+}
+.app-main {
+    display: flex;
+    flex: 1;
+    padding: 10px 20px;
+}
+.app-footer {
+    padding: 10px 20px;
+    border-top: 1px solid red;
+}
