@@ -1,37 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc9aefa3-4af1-4fe1-8c2d-9b4974f84b33" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Layout/styles.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Auth/styles.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Messages/styles.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/firebase/types.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types/Router.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Tabs/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Tabs/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Tabs/types.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constants/Auth.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Auth/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Auth/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Messages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Messages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/NotFound.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/NotFound.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/firebase/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/firebase/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routers/App.route.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routers/App.route.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routers/Private.route.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routers/Private.route.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routers/Public.route.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routers/Public.route.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stores/auth.store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/stores/auth.store.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stores/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/stores/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stores/profile.store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/stores/profile.store.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tools/StoreProvider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/tools/StoreProvider.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/types/Auth.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/Auth.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/types/Layout.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/Layout.ts" afterDir="false" />
-    </list>
+    <list default="true" id="cc9aefa3-4af1-4fe1-8c2d-9b4974f84b33" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -46,11 +16,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/containers/Messages/index.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="50" column="17" selection-start-line="50" selection-start-column="10" selection-end-line="50" selection-end-column="17" />
+            <state relative-caret-position="260">
+              <caret line="82" column="14" lean-forward="true" selection-start-line="82" selection-start-column="14" selection-end-line="82" selection-end-column="14" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/firebase/index.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="11" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -77,7 +56,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/containers/Messages/styles.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="570">
@@ -193,8 +172,8 @@
         <option value="$PROJECT_DIR$/src/types/Layout.ts" />
         <option value="$PROJECT_DIR$/src/components/Layout/index.tsx" />
         <option value="$PROJECT_DIR$/src/components/Layout/Header.tsx" />
-        <option value="$PROJECT_DIR$/src/containers/Messages/index.tsx" />
         <option value="$PROJECT_DIR$/src/containers/Messages/styles.ts" />
+        <option value="$PROJECT_DIR$/src/containers/Messages/index.tsx" />
       </list>
     </option>
   </component>
@@ -225,77 +204,7 @@
               <item name="mobx-firebase" type="b2602c69:ProjectViewProjectNode" />
               <item name="mobx-firebase" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mobx-firebase" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mobx-firebase" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mobx-firebase" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mobx-firebase" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Layout" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mobx-firebase" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mobx-firebase" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mobx-firebase" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mobx-firebase" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="Auth" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mobx-firebase" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mobx-firebase" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="Home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mobx-firebase" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mobx-firebase" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="Messages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mobx-firebase" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mobx-firebase" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="firebase" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mobx-firebase" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mobx-firebase" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="routers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mobx-firebase" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mobx-firebase" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="stores" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mobx-firebase" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mobx-firebase" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tools" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mobx-firebase" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mobx-firebase" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="types" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -329,12 +238,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571290532808</updated>
-      <workItem from="1571290535371" duration="24273000" />
+      <workItem from="1571290535371" duration="24475000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24273000" />
+    <option name="totallyTimeSpent" value="24475000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -346,8 +255,8 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32959184" />
+      <window_info anchor="bottom" id="Version Control" weight="0.32959184" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32959184" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -363,6 +272,32 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/containers/Auth/test.svg">
@@ -448,13 +383,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/firebase/index.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
@@ -729,20 +657,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Messages/styles.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="28" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/Messages/index.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="50" column="17" selection-start-line="50" selection-start-column="10" selection-end-line="50" selection-end-column="17" />
+        <state relative-caret-position="260">
+          <caret line="82" column="14" lean-forward="true" selection-start-line="82" selection-start-column="14" selection-end-line="82" selection-end-column="14" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Messages/styles.ts">
+    <entry file="file://$PROJECT_DIR$/src/firebase/index.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="28" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="11" selection-end-column="33" />
         </state>
       </provider>
     </entry>
