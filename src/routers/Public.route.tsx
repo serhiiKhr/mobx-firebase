@@ -1,21 +1,24 @@
 import React from 'react';
 import { Route, Redirect } from 'react-router-dom';
 
-const PublicRoute: React.FC<any> = (props: any) => {
-  const Component = props.component;
-  const { component, isLoggedIn, ...rest } = props;
-  return (
-    <Route
-      {...rest}
-      component={(props: any) =>
-        !isLoggedIn ? (
-          <Component {...props} />
-        ) : (
-          <Redirect to="/" />
-        )
-      }
-    />
-  )
+// Types
+import { IProtectedRoute } from '../types/Router';
+
+const PublicRoute: React.FC<IProtectedRoute> = (props: IProtectedRoute) => {
+    const Component: React.FC<any> = props.component;
+    const { component, uid, ...rest } = props;
+    return (
+        <Route
+            {...rest}
+            component={(props: any) =>
+                !uid ? (
+                    <Component {...props} />
+                ) : (
+                    <Redirect to="/" />
+                )
+            }
+        />
+    )
 };
 
 export default PublicRoute;

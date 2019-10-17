@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Switch, Route, Redirect, useHistory } from 'react-router-dom';
+import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom';
 import { get } from 'lodash';
 
 
@@ -19,17 +19,17 @@ import PublicRoute  from './Public.route';
 import PrivateRoute from './Private.route';
 
 // Store
-import {useRootData} from "../tools/useRootData";
+import { useRootData } from '../tools/useRootData';
 
-// History
+// Types
+import { IAppRouterView } from '../types/Router';
 
-
-const AppRouterView: React.FC<any> = ({ uid }) => {
+const AppRouterView: React.FC<IAppRouterView> = ({ uid }) => {
   return (
     <BrowserRouter>
       <Layout>
         <Switch>
-            <PublicRoute  path="/auth/:type" exact component={AuthPage} />
+            <PublicRoute  uid={uid} path="/auth/:type" exact component={AuthPage} />
             <Route        path="/auth">
               <Redirect   to="/auth/sign-in" />
             </Route>
@@ -44,9 +44,9 @@ const AppRouterView: React.FC<any> = ({ uid }) => {
   );
 };
 
-const AppRouter: React.FC = (props) => {
-  const { uid } = useRootData(store => ({
-    uid: get(store, 'auth.user.uid', null)
+const AppRouter: React.FC = () => {
+  const { uid }: IAppRouterView = useRootData(store => ({
+      uid: get(store, 'profile.user.uid', null)
   }));
 
   return <AppRouterView uid={uid} />

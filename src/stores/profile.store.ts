@@ -1,32 +1,36 @@
-import { types, Instance, flow } from 'mobx-state-tree';
-import * as firebase from 'firebase';
-import { database } from '../firebase';
+import { types } from 'mobx-state-tree';
+import {User} from '../types/Auth';
+import {FirebaseUser} from '../firebase/types';
 
-interface IUser {
-  displayName: string;
-  uid: string;
-  email: string;
-  description?: string;
-}
-class User implements IUser {
-  constructor(
-    public displayName: string = '',
-    public uid: string = '',
-    public email: string = '',
-    public description: string = ''
-  ) {}
-  setDescription(description: string) {
-    this.description = description;
-  }
-}
+// Api
+import { usersRef } from '../api';
 
-export const UserModel = types
-  .model('UserModel', {
-    user: types.optional(types.frozen<any>(), null)
+export const ProfileModel = types
+  .model('ProfileModel', {
+    user: types.optional(types.frozen<User | null>(), null)
   })
   .actions(self => ({
-    setUser(user: any): void {
-      console.log('user', user);
+    async checkUser(user: FirebaseUser): Promise<undefined> {
+      try {
+        const uid: string = (user as any).uid;
+        const response = await usersRef.child(uid).once('value');
+        const savedUser = new User(user);
+        if (!response.val()) {
+          await usersRef.child(uid).set(savedUser);
+          this.setProfileInfo(savedUser);
+          return;
+        } else {
+          this.setProfileInfo(savedUser);
+          return;
+        }
+      } catch (e) {
+        throw e;
+      }
+    },
+    setProfileInfo(user: User): void {
       self.user = user;
+    },
+    clearProfileInfo(): void {
+      self.user = null;
     }
   }));
